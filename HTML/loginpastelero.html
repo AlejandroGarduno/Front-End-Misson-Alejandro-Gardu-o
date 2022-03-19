@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv= “X-UA-Compatible” content= “IE=edge”> 
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > 
+    <title>GeekCake</title> 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Papyrus;
+        }
+
+        
+        header {
+            background-color: #845EC2;
+            padding: 30px;
+            text-align: left;
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+        }
+
+        
+
+        article {
+            background-color: #FF8066;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }        
+
+        /* Estilo de footer */
+        footer {
+            background-color: #4B4453;
+            padding: 10px;
+            text-align: left;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+
+
+<header>
+    <div>
+        <img src="logo.png"  align="right"/>
+        GeekCake 
+   </div>
+    <div>
+        <p>
+        <a href="index.html">Inicio</a>
+        </p>
+        
+    </div>
+        
+</header>
+
+<section>
+    <article>
+        <h1>Pedidos pendiente de entrega</h1>
+        <p>Aqui puedes ver todos los pedidos que hay</p>
+        <table width="1000" border="10">
+            <tbody>
+            
+            <th>Cliente</th>
+            <th>Telefono</th>
+            <th>Sabor del pan</th>
+            <th>Relleno</th>
+            <th>Diseño</th>
+            <th>Fecha de entrega</th>
+            <th>Pagado</th> 
+            
+            <tr>
+            <td>Carlos Ramirez</td>
+            <td>5548236951</td>
+            <td>Red velvet</td>
+            <td>Nutella, Fresa</td>
+            <td>Matrix</td>
+            <td>10/03/2022</td>
+            <td>Si</td>
+            </tr>
+            <tr>
+            <td>Oscar Sanchez</td>
+            <td>5598632554</td>
+            <td>Vainilla</td>
+            <td>Crema de queso</td>
+            <td>Matrix</td>
+            <td>14/04/20220</td>
+            <td>Si</td>
+            </tr>
+            <tr>
+            <td>Ballam Hernandez</td>
+            <td>5533665872</td>
+            <td>Chocolate</td>
+            <td>Nutella, Crema de queso</td>
+            <td>Avenger</td>
+            <td>10/03/20200</td>
+            <td>No</td>
+            </tr>
+            </tbody>
+            </table>
+        <h1>Inventario</h1>
+        <table width="1000" border="10">
+            <tbody>
+            
+            <th>Ingrediente</th>
+            <th>Cantidad</th>
+            <th>Unidad</th>
+            <th>Faltante para pedidos</th>
+            
+            <tr>
+            <td>huevo</td>
+            <td>210</td>
+            <td>pza</th>    
+            <td>0</th>
+            </tr>
+            <tr>
+            <td>harina</td>
+            <td>4</td>
+            <td>kg</th>    
+            <td>6</th>
+            </tr>
+            <tr>
+            <td>harina</td>
+            <td>4</td>
+            <td>kg</th>    
+            <td>6</th>
+            </tr>
+            <tr>
+                <td>Red Velvet</td>
+                <td>4</td>
+                <td>l</th>    
+                <td>0</th>
+            </tr>
+            <tr>
+                <td>Nutella</td>
+                <td>.5</td>
+                <td>l</th>    
+                <td>2</th>
+            </tr>
+            <tr>
+                <td>Fresa</td>
+                <td>1</td>
+                <td>kg</th>    
+                <td>0</th>
+            </tr>
+                
+            </tbody>
+            </table>
+        
+    </article>
+</section>
+
+<footer>
+    <p>Contactanos</p>
+    <p> PEDRO NO. 400 Int. NO. 104, FUENTES DEL VALLE, 6622</p>
+    <p>Nuevo Leon, San Pedro Garza Garcí</p>
+    <p>Número: 81-8335-2415</p>   
+</footer>
+
+</body>
+
+</html>

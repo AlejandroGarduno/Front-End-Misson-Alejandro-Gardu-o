@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv= “X-UA-Compatible” content= “IE=edge”> 
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > 
+    <title>GeekCake</title> 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Papyrus;
+        }
+
+        
+        header {
+            background-color: #845EC2;
+            padding: 30px;
+            text-align: center;
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+        }
+
+        
+
+        article {
+            background-color: #FF8066;
+            padding: 20px;
+            text-align: left;
+            color: white;
+        }
+
+        /* Clear floats after the columns */
+        
+
+        /* Estilo de footer */
+        footer {
+            background-color: #4B4453;
+            padding: 10px;
+            text-align: left;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+<header>
+    <div>
+        <img src="logo.png"  align="right"/>
+        GeekCake 
+   </div>
+    <div>
+        <p>
+        <a href="index.html">Inicio</a>
+        </p>
+        
+    </div>
+        
+</header>
+
+<section>
+    <article>
+        <h1>Arma tu pastel a tu manera</h1>
+        <p>Elige el sabor de tu pastel y danos tus datos para poder seguir con el proceso</p>
+        <p>Elige Sabor del pastel <br>
+            <select name="pan">
+                <option value="1">Vainilla</option> 
+                <option value="2">Fresa</option> 
+                <option value="3">Chocolate</option>
+                <option value="4">Red velvet</option> 
+                <option value="5">Café</option>
+            </select>
+        </p>
+        <p>Elige el relleno del pastel</p>
+        <p><input type="checkbox" id="nutella" value="nutella"> <label for="cbox2">Nutella</label></p>
+        <p><input type="checkbox" id="fresa" value="fresa"> <label for="cbox2">Fresa</label></p>
+        <p><input type="checkbox" id="crema_queso" value="crema_queso"> <label for="cbox2">Crema de queso</label></p>
+        <p>Elige el diseño del pastel</p>
+        <select name="pan">
+            <option value="1d">Avengers</option> 
+            <option value="2d">Batman</option> 
+            <option value="3d">Superman</option>
+            <option value="4d">Matrix</option> 
+            <option value="5d">LOTR</option>
+        </select>
+        <p>Cuando necesitas tu pastel?</p>
+        <p><input type="date" id="fecha_entrega" value="fecha_entrega"></p>
+        <p><input type="button" value="Enviar pedido"></p>
+    </article>
+</section>
+
+<footer>
+    <p>Contactanos</p>
+    <p> PEDRO NO. 400 Int. NO. 104, FUENTES DEL VALLE, 6622</p>
+    <p>Nuevo Leon, San Pedro Garza Garcí</p>
+    <p>Número: 81-8335-2415</p>   
+</footer>
+
+</body>
+
+</html>
